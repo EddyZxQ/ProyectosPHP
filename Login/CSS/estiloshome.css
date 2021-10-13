@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background: #f6eefc;
+
+
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background: #F0D9FF;
+    font-family: fantasy;
+
+}
+
+#bienvenida{
+    display: flex;
+    flex-direction: column;
+    font-family: akira, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 10px;
+    height: 100px;
+}
+
+#menuhome ul li a{
+    text-decoration: none;
+}
+
+#menuhome ul li a:hover{
+    color: crimson;
+}
+
+
+#menuCerrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#cerrar{
+    color: black;
+    text-decoration: none;
+}
+
+#cerrar:hover{
+    color: crimson;
+}
+
+#cerrar:link{
+    color: black;
+}
+
+#cerrar:visited{
+    color: black;
+}
+
+#cuentaCarrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+@font-face {
+    font-family: akira;
+    src: url(fuentes/akira.otf);
+}

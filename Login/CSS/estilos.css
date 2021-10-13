@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+#titulo{
+    margin-top: 20px;
+    text-align: center;
+    font-family: akira, sans-serif;
+}
+
+#contenedorloginfila{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 400px;
+}
+
+#contenedorlogincolumna1{
+    width: 90%;
+    background: #F0D9FF;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+#contenedorlogincolumna2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto 20px;
+    align-items: center;
+
+}
+
+
+input[type=text], input[type=password]{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border: transparent;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #F0D9FF;
+    border: transparent;
+}
+
+#opcionesLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* Fuente importada */
+
+@font-face {
+    font-family: akira;
+    src: url(fuentes/akira.otf);
+}
+
+
+@media (max-width: 500px) {
+    #contenedorlogincolumna1{ display: none; }
+    #contenedorloginfila{ width: 100%; padding: 30px}
+}
