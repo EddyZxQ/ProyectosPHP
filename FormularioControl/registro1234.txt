@@ -1,0 +1,14 @@
+Identificador: 1234
+Nombre: Edgar
+Apellidos: lopez
+Fecha Nacimiento: 2021-10-09
+DNI: 9362362W
+Estado Civil: España
+Estado Actual: autonomo
+Tasa Prestaciones: 21
+Ingresos Anuales: 15000
+Valor Declarar: 2000
+Telefono: 678620902
+Email: theskril70@gmail.com
+Direccion: 46370
+Notas: hola jajaa

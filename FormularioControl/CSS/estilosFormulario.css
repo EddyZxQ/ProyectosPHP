@@ -1,0 +1,68 @@
+/*Estilos para el formulario*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: owo;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+#contenedorFormulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 60px;
+
+}
+
+
+.fila{
+    padding: 5px;
+    margin: 10px;
+}
+
+.fila label{
+    margin-right: 10px;
+}
+
+.fila input{
+    width: 283px;
+
+    border-bottom: 0.5px solid #5787f6;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    outline: transparent;
+
+}
+
+.fila textarea{
+    width: 283px;
+
+    border-bottom: 0.5px solid #5787f6;
+    border-top: 0.5px solid #5787f6;
+    border-left: 0.5px solid #5787f6;
+    border-right: 0.5px solid #5787f6;
+    background-color: whitesmoke;
+    outline: transparent;
+
+}
+
+@font-face {
+    font-family: owo;
+    src: url(Fuente/gordita.ttf);
+}
